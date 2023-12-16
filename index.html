@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Picture Element</title>
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shoe Selection</title>
 </head>
 <body>
-<h1>Picture Element</h1>
-<h2><picture> 
-    <source media="(min-width: 1200px)" srcset="large.jpg"> 
-    <source media="(min-width: 800px)" srcset="medium.jpg"> 
-<source media="(min-width: 320px)" srcset="small.jpg">   
-<img src="fallback.jpg" alt="waterwheel"> 
-</picture>
-</h2>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Shoe Selection Logo" width="100" height="100">
+            <p class="logo-text">Shoe Selection</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="men.html">Men's Shoes</a></li>
+                <li><a href="women.html">Women's Shoes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to our Shoe Store</h1>
+            <p>Discover the latest trends in footwear for men and women.</p>
+            <a href="#" class="cta-button">Shop Now</a>
+        </section>
+
+        <h2 style="text-align: center;">Popular Categories</h2>
+
+        <section class="shoe-categories">
+            <div class="shoe-category">
+                <img src="sneakers.jpg " alt="Sneakers" height="200px">
+                <h3>Sneakers</h3>
+            </div>
+            <div class="shoe-category">
+                <img src="sports.jpg" alt="Sports">
+                <h3>Sport Shoes</h3>
+            </div>
+            <div class="shoe-category">
+                <img src="formal.jpg" alt="Formal">
+                <h3>Formal Shoes</h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Shoe Selection. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+

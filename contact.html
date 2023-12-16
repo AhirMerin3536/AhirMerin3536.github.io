@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{text-align: center;}
+        form { background-color: #dddcdc; 
+           font-family: Arial, sans-serif; 
+           width: 350px; padding: 20px; display: inline-block;}
+        label { float: left; clear: left; display: block; 
+            width: 100px; padding-right: 10px;
+            margin-top: 10px; text-align: left; }
+        input { display: block; margin-top: 10px; }
+        textarea { display: block; margin-top: 10px; }
+        input[type="submit"] {margin: auto; width:100px ;}
+    </style>
+     
+    <title>Shoe Selection</title>
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <img src="logo.png" alt="Shoe Selection Logo" width="100" height="100">
+            <p class="logo-text">Shoe Selection</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men's Shoes</a></li>
+                <li><a href="women.html">Women's Shoes</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Contact Us</h1>
+<form method="get">
+<label for="myfame">First Name:</label>
+<input type="text" name="fname" id="fname">
+<label for="mylame">Last Name:</label>
+<input type="text" name="lname" id="lname">
+<label for="myEmail">E-mail:</label>
+<input type="text" name="myEmail" id="myEmail">
+<label for="myComments">Comments:</label>
+<textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+<input id="mySubmit" type="submit" value="Submit">
+</form>
+</main>
+    <footer>
+        <p>&copy; 2023 Shoe Selection. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
